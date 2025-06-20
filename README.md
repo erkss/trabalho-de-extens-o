@@ -79,4 +79,3 @@ npx expo start
 - **Erik Santos Silva**
 
 Projeto desenvolvido como parte de uma atividade acadêmica de extensão.
-Sinta-se à vontade para contribuir ou fazer um fork!
