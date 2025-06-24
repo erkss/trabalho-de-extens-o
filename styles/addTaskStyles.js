@@ -30,11 +30,11 @@ export const addTaskStyles = StyleSheet.create({
 		borderRadius: 10,
 		alignItems: 'center',
 	},
-	
+
 	buttonText: {
 		color: '#fff',
 		fontSize: 18,
 		fontWeight: 'bold',
 	},
-	
+
 });

@@ -33,17 +33,17 @@ export const homeStyles = StyleSheet.create({
 		marginHorizontal: 10,
 		backgroundColor: '#fff',
 		borderRadius: 10,
-    elevation: 3,
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.25,
-    shadowRadius: 3.84,
+		elevation: 3,
+		shadowColor: '#000',
+		shadowOffset: { width: 0, height: 2 },
+		shadowOpacity: 0.25,
+		shadowRadius: 3.84,
 	},
 
 	taskText: {
 		fontSize: 16,
 		color: '#333',
-		flexShrink: 1, 
+		flexShrink: 1,
 		flexWrap: 'wrap',
 		textAlign: 'justify',
 	},
@@ -55,7 +55,7 @@ export const homeStyles = StyleSheet.create({
 		color: '#aaa',
 		textAlign: 'justify',
 		textDecorationLine: 'line-through',
-		flexShrink: 1, 
+		flexShrink: 1,
 	},
 
 	addButton: {
@@ -79,5 +79,5 @@ export const homeStyles = StyleSheet.create({
 		fontSize: 35,
 		lineHeight: 35,
 	},
-	
+
 });
