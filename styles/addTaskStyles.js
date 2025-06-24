@@ -36,4 +36,5 @@ export const addTaskStyles = StyleSheet.create({
 		fontSize: 18,
 		fontWeight: 'bold',
 	},
+	
 });

@@ -33,11 +33,11 @@ export const homeStyles = StyleSheet.create({
 		marginHorizontal: 10,
 		backgroundColor: '#fff',
 		borderRadius: 10,
-        elevation: 3,
-        shadowColor: '#000',
-        shadowOffset: { width: 0, height: 2 },
-        shadowOpacity: 0.25,
-        shadowRadius: 3.84,
+    elevation: 3,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
 	},
 
 	taskText: {
@@ -79,4 +79,5 @@ export const homeStyles = StyleSheet.create({
 		fontSize: 35,
 		lineHeight: 35,
 	},
+	
 });
