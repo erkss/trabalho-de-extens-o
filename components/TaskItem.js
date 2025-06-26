@@ -28,12 +28,12 @@ const TaskItem = ({ task, onToggleComplete, onDelete }) => {
   );
 
   return (
-    <Swipeable 
-        renderRightActions={renderRightActions}
-        friction={3}
-        overshootRight={false}
-        enableTrackpadTwoFingerGesture
-        shouldCancelWhenOutside={true}
+    <Swipeable
+      renderRightActions={renderRightActions}
+      friction={3}
+      overshootRight={false}
+      enableTrackpadTwoFingerGesture
+      shouldCancelWhenOutside={true}
     >
       <View style={styles.taskItem}>
         <TouchableOpacity onPress={() => onToggleComplete(task.id)}>

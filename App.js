@@ -15,10 +15,12 @@ export default function App() {
 		<GestureHandlerRootView style={{ flex: 1 }}>
 			<NavigationContainer>
 				<Stack.Navigator initialRouteName="SplashScreen" screenOptions={{ headerShown: false }}>
-					<Stack.Screen name="SplashScreen" component={SplashScreen}/>
-					<Stack.Screen name="HomeScreen" component={HomeScreen} options={{ headerShown: true, title: 'Minhas tarefas', 
-						headerTitleStyle: { fontSize: 20, fontWeight: 'bold', color: '#333' } }}/>
-					<Stack.Screen name="AddTaskScreen" component={AddTaskScreen} options={{ headerShown: true, title: 'Nova Tarefa' }}/>
+					<Stack.Screen name="SplashScreen" component={SplashScreen} />
+					<Stack.Screen name="HomeScreen" component={HomeScreen} options={{
+						headerShown: true, title: 'Minhas tarefas',
+						headerTitleStyle: { fontSize: 20, fontWeight: 'bold', color: '#333' }
+					}} />
+					<Stack.Screen name="AddTaskScreen" component={AddTaskScreen} options={{ headerShown: true, title: 'Nova Tarefa' }} />
 				</Stack.Navigator>
 			</NavigationContainer>
 		</GestureHandlerRootView>

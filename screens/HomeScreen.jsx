@@ -11,7 +11,7 @@ const HomeScreen = () => {
 
 	const loadTasks = async () => {
 		try {
-		  const storedTasks = await AsyncStorage.getItem('tasks');
+			const storedTasks = await AsyncStorage.getItem('tasks');
 			if (storedTasks) setTasks(JSON.parse(storedTasks));
 		} catch (error) {
 			console.log('Erro ao carregar tarefas:', error);
